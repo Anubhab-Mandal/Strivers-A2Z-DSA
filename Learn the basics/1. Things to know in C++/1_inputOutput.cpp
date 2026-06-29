@@ -4,7 +4,7 @@ Example 1
 Input(user gives value): 7
 Output: 7
 
-Example 2~
+Example 2
 Input(user gives value): -5
 Output: -5
 */

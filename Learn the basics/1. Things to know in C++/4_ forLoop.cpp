@@ -12,6 +12,10 @@ Output: 25
 Explanation: 3 + 4 + 5 + 6 + 7 = 25
 */
 
+
+// Approach: Iterate from low to high and keep adding each number to the sum.
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,3 +31,6 @@ int main()
     }
     cout << sum;
 };
+
+// Time Complexity: O(high - low + 1)
+// Space Complexity: O(1)

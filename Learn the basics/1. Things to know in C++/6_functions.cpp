@@ -12,6 +12,10 @@ Output: [1,5,1,1,2,1]
 Explanation: The reverse of the array [1,2,1,1,5,1] is [1,5,1,1,2,1].
 */
 
+
+// Approach: We use two pointers (left and right). Swap elements at both ends and move inward until they meet. This reverses the array in-place.
+
+
 /*
 #include <bits/stdc++.h>
 using namespace std;
@@ -65,3 +69,6 @@ int main() {
 
     return 0;
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)

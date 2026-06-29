@@ -3,12 +3,6 @@ Given the integer day denoting the day number, print on the screen which day of 
 
 Ensure only the 1st letter of the answer is capitalised.
 
-For printing use:-
-for C++ : cout << variable_name;
-for Java : System.out.print();
-for Python : print()
-for Javascript : console.log()
-
 Example 1
 Input: day = 3
 Output: Wednesday
@@ -18,13 +12,15 @@ Input: day = 8
 Output: Invalid
 */
 
+// Approach: Use a switch statement to map the input day (1–7) to the corresponding day of the week. Print "Invalid" for any value outside this range.
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
     int day;
-    cin>>day;
+    cin >> day;
     switch (day)
     {
     case 1:
@@ -51,4 +47,8 @@ int main()
     default:
         cout << "Invalid";
     }
+    return 0;
 };
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)

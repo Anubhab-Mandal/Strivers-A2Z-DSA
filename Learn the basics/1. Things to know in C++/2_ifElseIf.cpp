@@ -7,14 +7,6 @@ Grade C if marks >= 50
 Grade D if marks >= 35
 Fail, otherwise.
 
-For printing use:-
-for C++ : cout << variable_name;
-for Java : System.out.print();
-for Python : print()
-for Javascript : console.log()
-for C# : Console.WriteLine();
-for Go : fmt.Println()
-
 Example 1
 Input: marks = 95
 Output: Grade A
@@ -26,6 +18,7 @@ Output: Fail
 Explanation: marks are less than 35.
 */
 
+// Approach: Check the marks against the grade boundaries using an if-else if ladder.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,4 +47,8 @@ int main()
     {
         cout << "Fail";
     }
+    return 0;
 };
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
