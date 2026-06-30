@@ -10,6 +10,8 @@ Given an integer n. You need to recreate the pattern given below for any value o
 Print the pattern in the function given to you.
 */
 
+// Approach: Use two nested loops. The outer loop starts from n and decreases to 1, while the inner loop prints '*' exactly i times in each row, creating an inverted right-angled triangle.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,3 +33,6 @@ int main()
     cin >> n;
     pattern5(n);
 }
+
+// Time Complexity: O(n²)
+// Space Complexity: O(1)

@@ -10,6 +10,8 @@ Given an integer n. You need to recreate the pattern given below for any value o
 Print the pattern in the function given to you.
 */
 
+// Approach: Use two nested loops. The outer loop iterates through each row, and the inner loop prints numbers from 1 to the current row number, forming a right-angled number triangle.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,3 +33,6 @@ int main()
     cin >> n;
     pattern3(n);
 }
+
+// Time Complexity: O(n²)
+// Space Complexity: O(1)

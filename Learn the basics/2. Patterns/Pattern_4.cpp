@@ -10,6 +10,8 @@ Given an integer n. You need to recreate the pattern given below for any value o
 Print the pattern in the function given to you.
 */
 
+// Approach: Use two nested loops. The outer loop iterates through each row from 1 to n, and the inner loop prints the current row number exactly i times.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,3 +33,6 @@ int main()
     cin >> n;
     pattern4(n);
 }
+
+// Time Complexity: O(n²)
+// Space Complexity: O(1)
